@@ -87,4 +87,20 @@ $(document).ready(function () {
   //   console.log($("#p1").css("color"));
   // });
 
+  //ARBORESCNCE PARENT ENFANT
+  // $("#start").click(function() {
+  //   $("#div1").parents(".special").css("border-color", "green");
+  //   $("#div1").children().css("border-color", "green");
+  //   $("#div1").find("p").css("border-color", "yellow");
+  // });
+
+  //ARBORESCENCE FRERES
+  $("#start").click(function () {
+    // $("#p1").siblings().css("border-color", "green");
+    // $("#p1").next().css("border-color", "green");
+    // $("p").first().css("border-color", "green");
+    // $("p").last().css("border-color", "green");
+    // $("p").eq(0).css("border-color", "green");
+    // $("div").not("special").css("border-color", "green");
+  });
 });
